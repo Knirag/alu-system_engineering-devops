@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Private key is  important
+ssh-keygen -i ~/.ssh/school
