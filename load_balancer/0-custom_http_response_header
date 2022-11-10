@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # custom header
-REDIR="\\\tlocation /redirect_me {\n\t\t return 301 https://onepiece.fandom.com/wiki/One_Piece_Wiki;\n\t}\n"
+REDIR="\\\tlocation /redirect_me {\n\t\t return 301 https://play.barbie.com/en-sea/games;\n\t}\n"
 ERRDIR="\\\n\terror_page 404 /custom_404.html;\n\tlocation = /custom_404.html {\n\t\troot /var/www/html;\n\t\tinternal;\n\t}\n"
 SRC="/etc/nginx/sites-enabled/default"
 HEADER="\\\n\tadd_header X-Served-By \$HOSTNAME;\n"
