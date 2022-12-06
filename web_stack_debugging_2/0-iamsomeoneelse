@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 person=$1
-user=$person
-sudo -u user whoami $person
+whoami $person
+echo $person
