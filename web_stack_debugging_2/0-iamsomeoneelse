@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-person=$1
-whoami $person
-echo $person
+person="$1"
+"$(whoami)" "$person"
+echo "$person"
