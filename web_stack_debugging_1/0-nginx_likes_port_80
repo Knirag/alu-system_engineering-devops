@@ -5,5 +5,6 @@ sudo apt-get -y install nginx
 sudo ufw enable
 sudo iptables -L
 sudo ufw allow ssh
+sudo ufw allow 'Nginx HTTP'
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
-sudo service restart nginx
+sudo service nginx restart
